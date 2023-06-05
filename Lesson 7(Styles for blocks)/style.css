@@ -1,0 +1,14 @@
+#block {
+    background: red;
+    height: 200px;
+    width: 200px;
+    border: 20px solid silver;
+    border-style: dashed;
+
+    border-radius: 15px;
+    opacity: 0.5;
+    /*Внешние и внутренние отступы*/
+    margin: 20px;
+    margin-left: 30px;
+    padding: 20px;
+}

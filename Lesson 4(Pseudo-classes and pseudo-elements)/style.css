@@ -1,0 +1,44 @@
+/* Псевдоклассы и псевдоэлементы
+При помощи псевдоклассов мы можем управлять различными CSS свойствами для состояний какого-либьо объекта*/
+.main_link {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Обращение к псевдоклассам, они ставятся через одно доветочие :hover(меняет стили при наведении на него)*/
+.main_link:hover {
+    color:blue;
+    text-decoration: line-through;
+}
+
+/* Псевдокласс который реагирует каждый раз когда мы нажимаем на какой-либо объект*/
+
+.main_link:active {
+    color:rgb(33, 168, 78);
+}
+
+/* Псевдокласс после которого мы нажали(ссылку например) и цвет поменяялся*/
+
+.main_link:visited {
+    color:grey
+}
+
+
+/* Псевдокласс после которого мы навели мышку на тестовое поле*/
+input {color: red}
+input:focus {color: blue}
+
+
+/* Псевдоэлементы, мы можем работать с определённой частью текста внтури html объекта */
+/* Псевдоэлемент after*/
+#some_id::after {
+    content: 'New text';
+}
+
+p.main_link::first-letter {
+    color:blueviolet
+}
+
+p:first-of-type {
+    text-decoration: line-through;
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: #285885;
+    color: #d8dce3;
+    /*background-image: url(/Lesson\ 5\(Work\ with\ backgrond\ pics\)/tesla.jpg);*/
+}
+
+#first {
+    background-image: url(/Lesson\ 5\(Work\ with\ backgrond\ pics\)/tesla.jpg);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second {
+    height: 2000px;
+}

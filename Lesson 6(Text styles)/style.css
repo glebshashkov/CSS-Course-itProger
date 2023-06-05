@@ -1,0 +1,14 @@
+.main_text {
+    color:rgb(45, 107, 161);
+    text-align: center;/*Показывает где конкретно будет по умолчанию располагаться текст*/
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+
+    text-transform: lowercase;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    line-height: 30px;
+    cursor: copy;
+}
